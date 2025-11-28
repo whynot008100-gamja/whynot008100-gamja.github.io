@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">블로그</a></h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="테마 전환"></button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="post-header" id="post-header">
+            <h1 id="post-title">게시글 제목</h1>
+            <div class="post-meta">
+                <span id="post-date"></span>
+                <span id="post-tags"></span>
+                <span id="post-category"></span>
+            </div>
+        </div>
+
+        <article class="post-content" id="post-content">
+            <p class="loading">게시글을 불러오는 중...</p>
+        </article>
+
+        <div class="giscus-container" id="giscus-container"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 블로그. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/post-loader.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "example.md",
+    "title": "첫 번째 게시글",
+    "date": "2025-01-26",
+    "tags": [
+      "JavaScript",
+      "Web"
+    ],
+    "category": "Development",
+    "description": "GitHub Pages 정적 블로그의 첫 번째 샘플 게시글입니다.",
+    "excerpt": "이것은 GitHub Pages 정적 블로그의 샘플 게시글입니다. 이 블로그는 다음과 같은 기술로 구축되었습니다: - : 프레임워크 없이 순수 웹 기술 사용 - : 마크다운 파싱 - : 코드 하이라이팅 - : GitHub Discussions 기반 댓글 시스템 이 블로그는 마크다운 문법을 완전히 지원합니다: -  -  - (https://example.com..."
+  }
+]

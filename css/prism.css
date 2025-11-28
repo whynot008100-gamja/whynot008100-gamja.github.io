@@ -1,0 +1,29 @@
+/* Prism.js 기본 테마는 CDN에서 로드되므로, 여기서는 커스텀 스타일만 추가 */
+
+/* 코드 블록 스크롤바 스타일링 */
+pre[class*="language-"] {
+    position: relative;
+}
+
+pre[class*="language-"]::-webkit-scrollbar {
+    height: 8px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 128, 128, 0.5);
+}
+
+/* 다크 모드에서 코드 블록 배경 조정 */
+[data-theme="dark"] pre[class*="language-"] {
+    background-color: #1e1e1e;
+}
+
